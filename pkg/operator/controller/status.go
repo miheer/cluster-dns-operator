@@ -74,7 +74,6 @@ func (r *reconciler) syncOperatorStatus() error {
                 {
                         Group:    operatorv1.GroupName,
                         Resource: "DNS",
-                        Name:     r.Namespace,
                 },  
 	}
 
